@@ -1,0 +1,13 @@
+{
+    "github_ips_only": true,
+    "enforce_secret": "webhook_secret",
+    "return_scripts_info": true,
+    "actions": [
+        {
+            "name": "test",
+            "branch": "master",
+            "event": "push",
+            "run": "/mnt/d/Servers/webhook-sandbox/exmaple.sh"
+        }
+    ]
+}
